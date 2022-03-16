@@ -1,10 +1,17 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #464646;
+}
+
+/* Inicio do header */
+
 .header {
   background: #F5F5F5;
 }
 
-.container {
-  width: 960px;
-  margin: 34.5px auto 0;
+.container-header {
+  width: 80%;
+  margin: 34.5px auto 66.5px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -17,7 +24,6 @@
 
 .titulo-inicial {
   margin-left: 8px;
-  font-family: 'Raleway', sans-serif;
   font-weight: bold;
 }
 
@@ -40,35 +46,33 @@
   font-weight: bold;
 }
 
+/* Inicio da apresentacao */
+
 .apresentacao {
-  width: 960px;
+  width: 80%;
   margin: 0 auto;
   display: flex;
-  margin-top: 66.5px;
   align-items: center;
+  margin-bottom: 2rem;
 }
 
 .apresentacao-coluna {
   display: flex;
   flex-direction: column;
   margin-right: 17px;
-  
 }
 
 .apresentacao-titulo-conteudo {
-  font-family: 'Raleway', sans-serif;
   font-weight: bold;
   font-size: 3.2rem;
   line-height: 3.8rem;
   color: #464646;
-  margin-top: 61px;
 }
 
 .apresentacao-coteudo {
   margin-top: 1.5rem;
   font-size: 1.4rem;
   line-height: 1.6rem;
-  font-family: 'Raleway', sans-serif;
   color: #464646;
 }
 
@@ -80,7 +84,6 @@
 
 .apresentacao-sociais-lista a {
   text-decoration: none;
-  font-family: 'Raleway', sans-serif;
   color: #464646;
 }
 
@@ -99,3 +102,71 @@
   border-radius: 100%;
 }
 
+/* inicio sobre mim */
+
+.sobre-mim {
+  background: #EAF2FD;
+}
+
+.sobre-mim-box {
+  width: 80%;
+  margin: 0 auto 2rem;
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 0;
+}
+
+.sobre-mim-titulo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #464646;
+}
+
+.sobre-mim-conteudo {
+  width: 751px;
+  margin: 1rem 0;
+  color: #464646;
+  line-height: 1.17rem;
+}
+
+.sobre-mim-img {
+  width: 140px;
+  height: 52px;
+}
+
+/* Inicio skills */
+.skills-and-hobbies {
+  background: #F5F5F5;
+}
+
+.skills-lista {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-around;
+ 
+
+}
+
+.skills-titulo {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+
+}
+
+.skills-item {
+  background: #FFFFFF;
+  margin: 1rem;
+  width: calc(33.3% - 1rem);
+  margin: 2rem;
+  height: 174px;
+}
+
+.skills-img {
+  displa
+}
+
+.skills-texto {
+
+}
