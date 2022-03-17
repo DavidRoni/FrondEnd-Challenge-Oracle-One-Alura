@@ -110,7 +110,7 @@ body {
 
 .sobre-mim-box {
   width: 80%;
-  margin: 0 auto 2rem;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   padding: 4rem 0;
@@ -135,38 +135,44 @@ body {
 }
 
 /* Inicio skills */
-.skills-and-hobbies {
+
+.skills, .hobbies {
   background: #F5F5F5;
 }
 
-.skills-lista {
-  display: flex;
-  width: 80%;
-  margin: 0 auto;
-  justify-content: space-around;
- 
-
-}
-
 .skills-titulo {
+  padding: 2rem 0;
   text-align: center;
   font-weight: bold;
   font-size: 2rem;
-
 }
 
-.skills-item {
-  background: #FFFFFF;
-  margin: 1rem;
-  width: calc(33.3% - 1rem);
-  margin: 2rem;
+.skills-box, .hobbies-box {
+  display: grid;
+  width: 80%;
   height: 174px;
+  margin: 0 auto;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(6, 176px);
+
 }
 
-.skills-img {
-  displa
+.skills-lista, .hobbies-lista {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: white;
+  padding: 1rem;
 }
 
-.skills-texto {
+.skills-texto, .hobbies-texto {
+  padding-top: 12px;
+  font-weight: bold;
+}
 
+.hobbies-titulo {
+  padding: 5.5rem 0 2rem 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
 }
