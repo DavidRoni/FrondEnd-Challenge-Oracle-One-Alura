@@ -1,0 +1,44 @@
+.skills, .hobbies {
+  background: #F5F5F5;
+}
+
+.skills-titulo {
+  padding: 2rem 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.skills-box, .hobbies-box {
+  display: grid;
+  width: 80%;
+  height: 174px;
+  margin: 0 auto;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(6, 15.3%);
+
+}
+
+.skills-lista, .hobbies-lista {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: white;
+  padding: 1rem;
+}
+
+.skills-texto, .hobbies-texto {
+  padding-top: 12px;
+  font-weight: bold;
+}
+
+.hobbies {
+  padding-bottom: 5.5rem;
+}
+
+.hobbies-titulo {
+  padding: 5.5rem 0 2rem 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+}

@@ -1,0 +1,40 @@
+.header {
+  background: #F5F5F5;
+}
+
+.container-header {
+  width: 80%;
+  margin: 34.5px auto 66.5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.conteudo-inicial {
+  display: flex;
+  align-items: center;
+}
+
+.titulo-inicial {
+  margin-left: 8px;
+  font-weight: bold;
+}
+
+.nav-lista  {
+  display: flex;
+}
+
+.nav-lista a {
+  text-decoration: none;
+  color: #464646;
+  font-family: 'Raleway', sans-serif;
+  margin-left: 2rem; 
+}
+
+.nav-lista a:hover {
+  font-size: 14px;
+}
+
+.nav-lista li:last-child {
+  font-weight: bold;
+}
