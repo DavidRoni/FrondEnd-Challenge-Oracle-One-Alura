@@ -21,7 +21,7 @@ body {
 }
 
 .formacao-descricao {
-  padding-bottom: 5.1rem;
+  padding-bottom: 5.125rem;
 }
 
 .formacao-conteudo {
@@ -34,12 +34,12 @@ body {
   justify-content: center;
 }
 
-.formacao-conteudo:last-child {
+.formacao-conteudo:last-child, .formacao-descricao-conteudo:last-child {
   margin-right: 0;
 }
 
 .formacao-descricao-conteudo {
-  width: calc(33.3% - 1rem);
+  width: calc(33.9% - 1rem);
   margin-right: 1rem;
   margin-top: 0.5rem;
 }
