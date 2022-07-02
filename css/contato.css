@@ -2,70 +2,69 @@
   background: #EAF2FD;
 }
 
-.contato-container {
-  padding-top: 8rem;
+.contato__container {
   display: flex;
-  width: 80%;
-  margin: 0 auto;
-  padding-bottom: 4.1rem;
 }
 
 .contato-conteudo {
   display: flex;
   flex-direction: column;
-  margin-left: 2rem;
 }
 
-.contato-titulo {
+.contato-conteudo__titulo {
   font-weight: bold;
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
 }
 
-.contato-descricao {
+.contato-conteudo__descricao {
   font-weight: 500;
   line-height: 1.17375rem;
   margin-bottom: 2rem;
 }
 
+fieldset {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
 .formulario {
   display: flex;
   flex-direction: column;
+  row-gap: calc(2rem - 0.2rem);
 }
 
-.label {
+.formulario__label {
   background: #FFFFFF;
   font-size: 0.75rem;
   font-weight: 400;
   color: #A2A2A2;
-  padding-top: 8px;
+  padding-top: 0.5rem;
   padding-left: 1rem;
 }
 
-.form-text {
+.formulario__texto {
   height: 32px;
-  margin-bottom: 2rem;
   border: none;
-  padding-left: 1rem;
+  padding: 0 0.75rem 0 0.75rem;
 }
 
-.form-text:focus, .form-text-area:focus {
+.formulario__texto:focus, .formulario__texto-area:focus {
   box-shadow: 0 0 0 0;
   outline: 0;
   border-bottom: 2px solid #2A7AE4;
 }
 
-.form-text-area {
+.formulario__texto-area {
   resize: none;
   border: none;
-  padding: 1rem 0 0 0.75rem;
+  padding: 1rem 0.75rem 0 0.75rem;
 }
 
-.form-assunto {
-  padding: 1rem 0 1rem 0.75rem;
+.formulario__assunto {
+  padding: 1rem 0.75rem 1rem 0.75rem;
 }
 
-.form-enviar {
+.formulario__enviar {
   margin-top: 2rem;
   height: 51px;
   width: 165px;
@@ -77,6 +76,52 @@
   transition: all .3s ease-in-out;
 }
 
-.form-enviar:hover {
+.formulario__enviar:hover {
   background: #5595E9;
+}
+
+.input-erro {
+  text-align: center;
+  margin-top: 0.2rem;
+  font-size: 0.70rem;
+  color: rgb(184, 8, 8);
+}
+
+@media screen and (min-width: 0) {
+  .contato__container {
+    padding: 2rem 0;
+  }
+  .contato__imagem {
+    display: none;
+  }
+  .contato-conteudo__titulo {
+    font-size: 1.375rem;
+    margin: 2rem 0 0.5rem 0;
+  }
+}
+
+@media screen and (min-width:768px) {
+    fieldset {
+      width: 85.8vw;
+    }
+}
+
+@media screen and (min-width:992px) {
+  .contato__container {
+    padding-top: 8rem;
+    padding-bottom: 4.1rem;
+  }
+  .contato-conteudo {
+    margin-left: 2rem;
+  }
+  .contato-conteudo__titulo {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  .contato__imagem {
+    display: flex;
+  }
+  fieldset {
+    width: 100%;
+  }
 }

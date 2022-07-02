@@ -2,48 +2,92 @@
   background: #F5F5F5;
 }
 
-.skills-titulo {
-  padding: 2rem 0;
+.skills__titulo {
   text-align: center;
   font-weight: bold;
-  font-size: 2rem;
 }
 
-.skills-box, .hobbies-box {
+.skills-container, .hobbies-container {
   display: grid;
-  width: 80%;
-  height: 174px;
-  margin: 0 auto;
-  grid-gap: 1rem;
-  grid-template-columns: repeat(6, 15.3%);
-
 }
 
-.skills-lista, .hobbies-lista {
+.skills-conteudo, .hobbies-conteudo {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  background: white;
+  background: #FFFFFF;
   padding: 1rem;
 }
 
-.skills-lista:hover, .hobbies-lista:hover {
+.skills-conteudo:hover, .hobbies-conteudo:hover {
   align-items: center;
   justify-content: center;
 }
 
-.skills-texto, .hobbies-texto {
-  padding-top: 12px;
+.skills-conteudo__texto, .hobbies-conteudo__texto {
+  padding-top: 0.75rem;
   font-weight: bold;
 }
 
-.hobbies {
-  padding-bottom: 5.5rem;
-}
-
-.hobbies-titulo {
-  padding: 5.5rem 0 2rem 0;
+.hobbies__titulo {
   text-align: center;
   font-weight: bold;
-  font-size: 2rem;
+}
+
+@media screen and (min-width: 0) {
+  .skills__titulo {
+    padding: 1rem 0 2rem 0;
+    font-size: 2rem;
+  }
+  .skills-container, .hobbies-container{
+    height: 100vw;
+    grid-gap: 1rem;
+    row-gap: 2rem;
+    grid-template-columns: repeat(2, 48.4%);
+  }
+  .hobbies {
+    padding-bottom: 1rem;
+  }
+  .hobbies__titulo {
+    padding: 2rem 0;
+    font-size: 1.375rem;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .skills__titulo {
+    padding: 2rem 0;
+    font-size: 1.375rem;
+  }
+  .skills-container, .hobbies-container{
+    height: 50vw;
+    grid-gap: 1rem;
+    row-gap: 2rem;
+    grid-template-columns: repeat(3, 32.0%);
+  }
+  .hobbies {
+    padding-bottom: 2rem;
+  }
+  .hobbies__titulo {
+    padding: 4rem 0 2rem 0;
+    font-size: 1.375rem;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .skills__titulo {
+    font-size: 2rem;
+  }
+  .skills-container, .hobbies-container {
+    height: 174px;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(6, 15.43%);
+  }
+  .hobbies {
+    padding-bottom: 5.5rem;
+  }
+  .hobbies__titulo {
+    padding: 5.5rem 0 2rem 0;
+    font-size: 2rem;
+  }
 }

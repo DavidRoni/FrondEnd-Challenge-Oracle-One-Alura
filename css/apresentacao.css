@@ -1,51 +1,160 @@
 .apresentacao {
-  width: 80%;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  margin-bottom: 2rem;
+  background: #E5E5E5;
 }
 
-.apresentacao-coluna {
+.apresentacao__container {
+  display: flex;
+}
+
+.apresentacao__coluna {
   display: flex;
   flex-direction: column;
-  margin-right: 17px;
 }
 
-.apresentacao-titulo-conteudo {
+.apresentacao-titulo__conteudo {
   font-weight: bold;
-  font-size: 3.2rem;
-  line-height: 3.8rem;
   color: #464646;
 }
 
-.apresentacao-coteudo {
-  margin-top: 1.5rem;
-  font-size: 1.4rem;
-  line-height: 1.6rem;
+.apresentacao-descricao__conteudo {
   color: #464646;
 }
 
-.apresentacao-sociais-lista {
+.sociais__lista {
   display: flex;
   align-items: center;
-  margin-top: 1.5rem;
 }
 
-.apresentacao-sociais-lista a {
+.sociais__item  {
+  display: flex;
+  align-items: center;
+}
+
+.sociais__link {
   text-decoration: none;
   color: #464646;
 }
 
-.apresentacao-sociais-lista a:hover{
+.sociais__link:hover{
   border-bottom: 2px solid #464646;
   font-size: 1.2rem;
 }
 
-.apresentacao-sociais-lista img {
-  margin-right: 2rem;
+.foto-perfil {
+  border-radius: 100%;
 }
 
-.apresentacao-img {
-  border-radius: 100%;
+@media screen and (min-width: 0) {
+  .apresentacao {
+    padding-bottom: 1rem;
+  }
+  .apresentacao__container {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+  .apresentacao__coluna {
+    margin-right: 0;
+  }
+  .apresentacao-titulo__conteudo {
+    font-size: 1.375rem;
+    line-height: 1.614375rem;
+  }
+  .apresentacao-descricao__conteudo {
+    margin-top: 1rem;
+    font-size: 0.875rem;
+    line-height: 1.0275rem;
+  }
+  .sociais__lista {
+    margin-top: 1rem;
+  }
+  .sociais__link {
+    font-weight: 600;
+    font-size: 0.875rem;
+  }
+  .sociais__imagem {
+    width: 10.67px;
+    height: 10.67px;
+    background: url('../images/seta-mobile.png') no-repeat center;
+    margin: 0 0.52875rem 0 0.25875rem;
+  }
+  .foto-perfil {
+    width: 98px;
+    height: 98px;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .apresentacao {
+    padding-bottom: 2rem;
+  }
+  .apresentacao__container {
+    flex-direction: row;
+    align-items: center;
+  }
+  .apresentacao__coluna {
+    margin-right: 2rem;
+  }
+  .apresentacao-descricao__conteudo {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.17375rem;
+  }
+  .sociais__lista {
+    margin-top: 0.65625rem;
+  }
+  .sociais__link {
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  .sociais__imagem {
+    width: 16.00px;
+    height: 16.00px;
+    background: url('../images/seta.png') no-repeat center;
+    margin: 0 2.043125rem 0 0.293125rem;
+  }
+  .foto-perfil {
+    width: 146px;
+    height: 146px;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .apresentacao {
+    padding-bottom: 2rem;
+  }
+  .apresentacao__container {
+    flex-direction: row;
+    align-items: center;
+  }
+  .apresentacao__coluna {
+    margin-right: 1.063rem;
+  }
+  .apresentacao-titulo__conteudo {
+    font-size: 3.2rem;
+    line-height: 3.8rem;
+  }
+  .apresentacao-descricao__conteudo {
+    margin-top: 1.5rem;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+  }
+  .sociais__lista {
+    margin-top: 1.5rem;
+  }
+  .sociais__link {
+    font-weight: 500;
+  }
+  .sociais__imagem {
+    width: 16px;
+    height: 16px;
+    background: url('../images/seta.png') no-repeat center;
+    margin: 0 2rem 0 0.293rem;
+  }
+  .foto-perfil {
+    width: 368px;
+    height: 368px;
+    margin-bottom: 0;
+  }
 }

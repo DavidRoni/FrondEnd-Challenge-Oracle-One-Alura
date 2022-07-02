@@ -1,235 +1,425 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/header.css">
-  <link rel="stylesheet" href="css/apresentacao.css">
-  <link rel="stylesheet" href="css/sobre-mim.css">
-  <link rel="stylesheet" href="css/skills-hobbies.css">
-  <link rel="stylesheet" href="css/formacao-academica.css">
-  <link rel="stylesheet" href="css/experiencia-profissional.css">
-  <link rel="stylesheet" href="css/contato.css">
-  <link rel="stylesheet" href="css/footer.css">
-  <title>Challenge Front-End Portfólio - Figma</title>
-</head>
-<body>
-  <header>
-    <container class="container-header">
-      <div class="conteudo-inicial">
-        <img src="images/img-header.png">
-        <p class="titulo-inicial">Roni</p>      
-      </div>
-        <nav class="container-nav">
-          <ul class="nav-lista">
-            <li><a href="#">Sobre mim</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Hobbies</a></li>
-            <li><a href="#">Formação</a></li>
-            <li><a href="#">Projetos</a></li>
-            <li><a href="#">ronidavid@outlook.com</a></li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/apresentacao.css" />
+    <link rel="stylesheet" href="css/sobre-mim.css" />
+    <link rel="stylesheet" href="css/skills-hobbies.css" />
+    <link rel="stylesheet" href="css/formacao-academica.css" />
+    <link rel="stylesheet" href="css/experiencia-profissional.css" />
+    <link rel="stylesheet" href="css/contato.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Challenge Front-End Portfólio - Figma</title>
+  </head>
+  <body>
+    <header>
+      <container class="header__container container">
+        <div class="header-conteudo">
+          <img src="images/img-header.png" />
+          <p class="header-conteudo__titulo">Roni</p>
+        </div>
+        <nav class="nav">
+          <ul class="nav__lista">
+            <li class="nav__item">
+              <a class="nav__link" href="#sobre-mim">Sobre mim</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#skills">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#hobbies">Hobbies</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#formacao-academica">Formação</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#experiencia-profissional">Projetos</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#contato">ronidavid@outlook.com</a>
+            </li>
           </ul>
         </nav>
-    </container>
-  </header>
-  <main>
-    <section class="apresentacao">
-      <container class="apresentacao-coluna">
-          <div class="apresentacao-titulo">
-            <h1 class="apresentacao-titulo-conteudo">Olá, meu nome é Roni e construo páginas web</h1>
-          </div>
-          <div class="apresentacao-coteudo">
-            Eu estudo Análise e Desenvolvimento de Sistemas e atualmente estou participando do projeto Oracle ONE na Alura.
-          </div>
-          <div class="apresentacao-sociais">
-            <ul class="apresentacao-sociais-lista">
-              <li><a href="https://github.com/DavidRoni/" target="_blank" title="Acesse meu GitHub.">Github</a></li>
-              <img src="images/seta.png">
-
-              <li><a href="#" title="Em breve.">Linkedin</a></li>
-              <img src="images/seta.png">
-
-              <li><a href="#" title="Não tenho instagram. Mas se você me contratar eu posso criar um, sem problemas. :/)">Instagram</a></li>
-              <img src="images/seta.png">
-
-              <li><a href="#" title="Em breve.">Currículo</a></li>
-              <img src="images/seta.png">
-            </ul>
-          </div>
-        </container>
-         <img class="apresentacao-img" src="images/foto-perfil.png">
-    </section>
-    <section class="sobre-mim">
-      <container class="sobre-mim-box">
-        <h2 class="sobre-mim-titulo">Sobre mim</h2>
-          <p class="sobre-mim-conteudo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae sapiente temporibus numquam, deserunt hic iure quas. Fuga consequuntur ab vel. Laudantium voluptatem incidunt assumenda repudiandae nobis vero velit ratione esse?
-          </p>
-          <p class="sobre-mim-conteudo">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo vitae illo repudiandae nostrum natus laborum tempore consectetur delectus, nulla nobis sint commodi, odit unde laudantium doloremque magni quaerat itaque reprehenderit!
-          </p>
-        <img class="sobre-mim-img" src="images/assinatura.png" alt="Imagem de uma assinatura">
       </container>
-    </section>
-    <section class="skills">
-      <h2 class="skills-titulo">Skills</h2>
-        <container class="skills-box">
-          <container class="skills-lista">
-            <div class="skills-item">
-              <img class="skills-img" src="images/html5.png" alt="Imagem do Html, uma linguagem de marcação">
-              <p class="skills-texto">Html 5</p>
+    </header>
+    <main>
+      <section class="apresentacao">
+        <container class="apresentacao__container container">
+          <div class="apresentacao__coluna">
+            <div class="apresentacao-titulo">
+              <h1 class="apresentacao-titulo__conteudo">
+                Olá, meu nome é Roni e construo páginas web
+              </h1>
+            </div>
+            <div class="apresentacao-descricao">
+              <p class="apresentacao-descricao__conteudo">
+                Eu estudo Análise e Desenvolvimento de Sistemas e atualmente
+                estou participando do projeto Oracle ONE na Alura.
+              </p>
+            </div>
+            <div class="sociais">
+              <ul class="sociais__lista">
+                <li class="sociais__item">
+                  <a
+                    class="sociais__link"
+                    href="https://github.com/DavidRoni/"
+                    target="_blank"
+                    title="Acesse meu GitHub."
+                    >Github</a
+                  >
+                  <div class="sociais__imagem" src="images/seta.png"></div>
+                </li>
+
+                <li class="sociais__item">
+                  <a
+                    class="sociais__link"
+                    href="#"
+                    target="_blank"
+                    title="Em breve."
+                    >Linkedin</a
+                  >
+                  <div class="sociais__imagem" src="images/seta.png"></div>
+                </li>
+
+                <li class="sociais__item">
+                  <a
+                    class="sociais__link"
+                    href="#"
+                    target="_blank"
+                    title="Não tenho instagram."
+                    >Instagram</a
+                  >
+                  <div class="sociais__imagem" src="images/seta.png"></div>
+                </li>
+
+                <li class="sociais__item">
+                  <a
+                    class="sociais__link"
+                    href="#"
+                    target="_blank"
+                    title="Em breve."
+                    >Currículo</a
+                  >
+                  <div class="sociais__imagem" src="images/seta.png"></div>
+                </li>
+              </ul>
+            </div>
           </div>
+          <img class="foto-perfil" src="images/foto-perfil.png" />
         </container>
-        <container class="skills-lista">
-          <div class="skills-item">
-            <img src="images/css.png" alt="Imagem do CSS, uma linguagem de estilo">
-            <p class="skills-texto">CSS</p>
-          </div>
+      </section>
+      <section class="sobre-mim" id="sobre-mim">
+        <container class="sobre-mim__container container">
+          <h2 class="sobre-mim__titulo">Sobre mim</h2>
+          <p class="sobre-mim__conteudo">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae
+            sapiente temporibus numquam, deserunt hic iure quas. Fuga
+            consequuntur ab vel. Laudantium voluptatem incidunt assumenda
+            repudiandae nobis vero velit ratione esse?
+          </p>
+          <p class="sobre-mim__conteudo">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo vitae
+            illo repudiandae nostrum natus laborum tempore consectetur delectus,
+            nulla nobis sint commodi, odit unde laudantium doloremque magni
+            quaerat itaque reprehenderit!
+          </p>
+          <img
+            class="sobre-mim__img"
+            src="images/assinatura.png"
+            alt="Imagem de uma assinatura"
+          />
         </container>
-        <container class="skills-lista">
-          <div class="skills-item">
-            <img src="images/javascript.png" alt="Imagem do JavaScript, uma linguagem de programação">
-             <p class="skills-texto">Javascript</p>
-          </div>
-        </container>
-        <container class="skills-lista">
-          <div class="skills-item">
-            <img class="skills-img" src="images/html5.png" alt="Imagem do Html, uma linguagem de marcação">
-            <p class="skills-texto">Html 5</p>
-        </div>
-        </container>
-        <container class="skills-lista">
-          <div class="skills-item">
-            <img src="images/css.png" alt="Imagem do CSS, uma linguagem de estilo">
-            <p class="skills-texto">CSS</p>
-          </div>
-        </container>
-        <container class="skills-lista">
-          <div class="skills-item">
-            <img src="images/javascript.png" alt="Imagem do JavaScript, uma linguagem de programação">
-            <p class="skills-texto">Javascript</p>
-          </div>
-        </container>
+      </section>
+      <section class="skills" id="skills">
+        <h2 class="skills__titulo">Skills</h2>
+        <container class="skills-container container">
+          <container class="skills-conteudo">
+            <div class="skills-conteudo__container">
+              <img
+                src="images/html5.png"
+                alt="Imagem do Html, uma linguagem de marcação"
+              />
+              <p class="skills-conteudo__texto">Html 5</p>
+            </div>
           </container>
-    </section>
-    <section class="hobbies">  
-        <h2 class="hobbies-titulo">Hobbies</h2>
-          <container class="hobbies-box">
-            <container class="hobbies-lista">
-                <img class="hobbies-img" width="30px" height="30px" src="https://cdn-0.smartandroid.fr/wp-content/uploads/2020/03/connecter-t%C3%A9l%C3%A9phone-ordi7.png">
-                <p class="hobbies-texto">Jogar</p>
-            </container>
-            <container class="hobbies-lista">
-                <img class="hobbies-img" width="30px" height="30px" src="images/Assistir.png">
-                <p class="hobbies-texto">Assistir</p>
-            </container>
-            <container class="hobbies-lista">
-                <img class="hobbies-img" width="30px" height="30px" src="images/musica.png">
-                <p class="hobbies-texto">Ouvir música</p>
-            </container>
-            <container class="hobbies-lista">
-              <img class="hobbies-img" width="30px" height="30px" src="https://cdn-0.smartandroid.fr/wp-content/uploads/2020/03/connecter-t%C3%A9l%C3%A9phone-ordi7.png">
-              <p class="hobbies-texto">Jogar</p>
-            </container>
-            <container class="hobbies-lista">
-                <img class="hobbies-img" width="30px" height="30px" src="images/Assistir.png">
-                <p class="hobbies-texto">Assistir</p>
-            </container>
-            <container class="hobbies-lista">
-                <img class="hobbies-img" width="30px" height="30px" src="images/musica.png">
-                <p class="hobbies-texto">Ouvir música</p>
-            </container>
-            </container>
-    </section>
-    <section class="formacao-academica">
-      <h2 class="formacao-titulo">Formação Acadêmica</h2>
-        <container class="formacao-container">
-          <div class="formacao-conteudo">
-            <div class="formacao-conteudo-container">
-              <img src="images/logo uninove.png" alt="Logo da universidade Uninove">
+          <container class="skills-conteudo">
+            <div class="skills-conteudo__container">
+              <img
+                src="images/css.png"
+                alt="Imagem do CSS, uma linguagem de estilo"
+              />
+              <p class="skills-conteudo__texto">CSS</p>
             </div>
-          </div>
-          <div class="formacao-conteudo">
-            <div class="formacao-conteudo-container">
-              <img src="images/logo-alura-oracle.svg" alt="Logo da escola Alura">
+          </container>
+          <container class="skills-conteudo">
+            <div class="skills-conteudo__container">
+              <img
+                src="images/javascript.png"
+                alt="Imagem do JavaScript, uma linguagem de programação"
+              />
+              <p class="skills-conteudo__texto">Javascript</p>
             </div>
-          </div>
+          </container>
+          <container class="skills-conteudo">
+            <div class="skills-conteudo__container">
+              <img
+                class="skills-img"
+                src="images/html5.png"
+                alt="Imagem do Html, uma linguagem de marcação"
+              />
+              <p class="skills-conteudo__texto">Html 5</p>
+            </div>
+          </container>
+          <container class="skills-conteudo">
+            <div class="skills-conteudo__container">
+              <img
+                src="images/css.png"
+                alt="Imagem do CSS, uma linguagem de estilo"
+              />
+              <p class="skills-conteudo__texto">CSS</p>
+            </div>
+          </container>
+          <container class="skills-conteudo">
+            <div class="skills-conteudo__container">
+              <img
+                src="images/javascript.png"
+                alt="Imagem do JavaScript, uma linguagem de programação"
+              />
+              <p class="skills-conteudo__texto">Javascript</p>
+            </div>
+          </container>
+        </container>
+      </section>
+      <section class="hobbies" id="hobbies">
+        <h2 class="hobbies__titulo">Hobbies</h2>
+        <container class="hobbies-container container">
+          <container class="hobbies-conteudo">
+            <div class="hobbies-conteudo__container">
+              <img src="images/jogar.png" alt="Imagem de um computador" />
+              <p class="hobbies-conteudo__texto">Jogar</p>
+            </div>
+          </container>
+          <container class="hobbies-conteudo">
+            <div class="hobbies-conteudo__container">
+              <img src="images/Assistir.png" alt="Imagem de uma televisão" />
+              <p class="hobbies-conteudo__texto">Assistir</p>
+            </div>
+          </container>
+          <container class="hobbies-conteudo">
+            <div class="hobbies-conteudo__container">
+              <img src="images/musica.png" alt="Imagem de um fone de ouvido" />
+              <p class="hobbies-conteudo__texto">Ouvir música</p>
+            </div>
+          </container>
+          <container class="hobbies-conteudo">
+            <div class="hobbies-conteudo__container">
+              <img src="images/jogar.png" alt="Imagem de um computador" />
+              <p class="hobbies-conteudo__texto">Jogar</p>
+            </div>
+          </container>
+          <container class="hobbies-conteudo">
+            <div class="hobbies-conteudo__container">
+              <img src="images/Assistir.png" alt="Imagem de uma televisão" />
+              <p class="hobbies-conteudo__texto">Assistir</p>
+            </div>
+          </container>
+          <container class="hobbies-conteudo">
+            <div class="hobbies-conteudo__container">
+              <img src="images/musica.png" alt="Imagem de um fone de ouvido" />
+              <p class="hobbies-conteudo__texto">Ouvir música</p>
+            </div>
+          </container>
+        </container>
+      </section>
+      <section class="formacao-academica" id="formacao-academica">
+        <h2 class="formacao-academica__titulo">Formação Acadêmica</h2>
+        <container class="formacao-container container" id="container-80">
           <div class="formacao-conteudo">
             <div>
-              <img src="images/logo uninove.png" alt="Logo da universidade Uninove">
+              <img
+                class="formacao-conteudo__logo"
+                src="images/logo-uninove.png"
+                alt="Logo da universidade Uninove"
+              />
             </div>
           </div>
+          <div class="descricao-mobile">
+            <p class="formacao-descricao-conteudo__titulo">
+              Análise e Desensolvimento de Sistemas
+            </p>
+            <p class="descricao-mobile__descricao">
+              2021 - Univove / Cursando...
+            </p>
+          </div>
+
+          <div class="formacao-conteudo">
+            <div>
+              <img
+                class="formacao-conteudo__logo"
+                src="images/logo-alura-oracle.svg"
+                alt="Logo da escola Alura"
+              />
+            </div>
+          </div>
+          <div class="descricao-mobile">
+            <p class="formacao-descricao-conteudo__titulo">
+              Oracle ONE / Alura
+            </p>
+            <p class="descricao-mobile__descricao">
+              2022 - Alura / Cursando...
+            </p>
+          </div>
+
+          <div class="formacao-conteudo">
+            <div>
+              <img
+                class="formacao-conteudo__logo"
+                src="images/logo-uninove.png"
+                alt="Logo da universidade Uninove"
+              />
+            </div>
+          </div>
+          <div class="descricao-mobile">
+            <p class="formacao-descricao-conteudo__titulo">
+              Informática Básica
+            </p>
+            <p class="descricao-mobile__descricao">2021 - Uninove</p>
+          </div>
         </container>
-      <container class="formacao-descricao">
-        <div class="formacao-descricao-conteudo">
-          <p class="formacao-sub-titulo">Análise e Desensolvimento de Sistemas</p>
-          <span>2021 - Univove / Cursando...</span>
-        </div>
-        <div class="formacao-descricao-conteudo">
-          <p class="formacao-sub-titulo">Oracle ONE / Alura</p>
-          <span>2022 - Alura / Cursando...</span>
-        </div>
-        <div class="formacao-descricao-conteudo">
-          <p class="formacao-sub-titulo">Informática Básica</p>
-          <span>2021 - Uninove</span>
-        </div>
-      </container>
-    </section>
-    <section class="experiencia-profissional">
-      <h2 class="experiencia-profissional-titulo">Experiência Profissional</h2>
-      <container class="experiencia-container">
-        <img class="experiencia-img" src="images/projeto1.png">
-          <container class="experincia-conteudo">
-            <p class="experiencia-titulo">Decodificado de texto</p>
-            <p class="experiencia-descricao">Challenge Alura Codificador</p>
-            <button class="experiencia-botao-repositorio"><a target="_blank" href="https://github.com/DavidRoni/Alura-One-Criptografando">Repositório</a></button>
-            <button class="experiencia-botao-ver"><a target="_blank" href="https://davidroni.github.io/Alura-One-Criptografando/">Ver demo</a></button>
+        <container class="formacao-descricao container">
+          <div class="formacao-descricao-conteudo">
+            <p class="formacao-descricao-conteudo__titulo">
+              Análise e Desensolvimento de Sistemas
+            </p>
+            <span>2021 - Univove / Cursando...</span>
+          </div>
+          <div class="formacao-descricao-conteudo">
+            <p class="formacao-descricao-conteudo__titulo">
+              Oracle ONE / Alura
+            </p>
+            <span>2022 - Alura / Cursando...</span>
+          </div>
+          <div class="formacao-descricao-conteudo">
+            <p class="formacao-descricao-conteudo__titulo">
+              Informática Básica
+            </p>
+            <span>2021 - Uninove</span>
+          </div>
+        </container>
+      </section>
+      <section class="experiencia-profissional" id="experiencia-profissional">
+        <h2 class="experiencia-profissional__titulo-principal">
+          Experiência Profissional
+        </h2>
+        <container
+          class="experiencia-profissional__container container"
+          id="container-80"
+        >
+          <img
+            class="experiencia-profissional__imagem"
+            src="images/projeto1.png"
+          />
+          <container class="experincia-profissional__conteudo">
+            <p class="experiencia-profissional__titulo">
+              Decodificado de texto
+            </p>
+            <p class="experiencia-profissional__descricao">
+              Challenge Alura Codificador
+            </p>
+            <button class="experiencia-profissional__botao-repositorio">
+              <a
+                target="_blank"
+                href="https://github.com/DavidRoni/Alura-One-Criptografando"
+                >Repositório</a
+              >
+            </button>
+            <button class="experiencia-profissional__botao-ver">
+              <a
+                target="_blank"
+                href="https://davidroni.github.io/Alura-One-Criptografando/"
+                >Ver demo</a
+              >
+            </button>
           </container>
-      </container>
-      <container class="experiencia-container experiencia-container-2">
-        <container class="experincia-conteudo">
-          <p class="experiencia-titulo">Jogo criado com HTML, CSS e JavaScript</p>
-          <p class="experiencia-descricao">Challenge Oracle</p>
-          <button class="experiencia-botao-repositorio"><a target="_blank" href="https://github.com/DavidRoni/Alura-One-JogoDaForca">Repositório</a></button>
-          <button class="experiencia-botao-ver"><a target="_blank" href="https://davidroni.github.io/Alura-One-JogoDaForca/">Ver demo</a></button>
         </container>
-        <img class="experiencia-img experincia-img-2" src="images/projeto2.png">
-      </container>
-    </section>
-    <section class="contato">
-      <container class="contato-container">
-        <img class="contato-img" src="images/telefone.png">
+        <container
+          class="experiencia__container-esquerdo experiencia-profissional__container container"
+          id="container-80"
+        >
+          <container class="experincia-profissional__conteudo">
+            <p class="experiencia-profissional__titulo">
+              Jogo criado com HTML, CSS e JavaScript
+            </p>
+            <p class="experiencia-profissional__descricao">Challenge Oracle</p>
+            <button class="experiencia-profissional__botao-repositorio">
+              <a
+                target="_blank"
+                href="https://github.com/DavidRoni/Alura-One-JogoDaForca"
+                >Repositório</a
+              >
+            </button>
+            <button class="experiencia-profissional__botao-ver">
+              <a
+                target="_blank"
+                href="https://davidroni.github.io/Alura-One-JogoDaForca/"
+                >Ver demo</a
+              >
+            </button>
+          </container>
+          <img
+            class="experiencia-profissional__imagem-esquerda"
+            src="images/projeto2.png"
+          />
+        </container>
+      </section>
+      <section class="contato" id="contato">
+        <container class="contato__container container">
+          <img class="contato__imagem" src="images/telefone.png" />
           <container class="contato-conteudo">
-            <h2 class="contato-titulo">Contato</h2>
-            <p class="contato-descricao">Quer entrar em contato comigo? <br>
-              Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>       
-              <form action="" class="formulario">
-                
-                <label class="label" for="nome">Nome</label>
-                <input type="text" id="nome" class="form-text form1">
-                
-                <label class="label" for="email">E-mail</label>
-                <input type="email" class="form-text" name="" id="email">
-
-                <input type="text" class="form-text form-assunto" name="" id="" placeholder="Assunto">
-
-                <textarea name="" class="form-text-area" id="" cols="30" rows="10" placeholder="Mensagem"></textarea>
-                <input type="submit" class="form-enviar" value="Enviar Mensagem">
-
-              </form>
+            <h2 class="contato-conteudo__titulo">Contato</h2>
+            <p class="contato-conteudo__descricao"> Quer entrar em contato comigo?<br/> Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
+            <form action="" class="formulario">
+              <fieldset id="nome">
+                <label class="formulario__label" for="nome">Nome</label>
+                <input type="text" id="nome" class="formulario__texto" pattern="\w{1,50}$" data-tipo="nome" required />
+                <span class="input-erro"></span>
+              </fieldset>
+              <fieldset id="email">
+                <label class="formulario__label" for="email">E-mail</label>
+                <input type="email" class="formulario__texto" name="" id="email" data-tipo="email" required/>
+                <span class="input-erro"></span>
+              </fieldset>
+              <fieldset id="assunto">
+                <input type="text" class="formulario__texto formulario__assunto" name="" id="" placeholder="Assunto" pattern="\w{1,50}" data-tipo="assunto" required/>
+                <span class="input-erro"></span>
+              </fieldset>
+              <fieldset id="mensagem">
+                <textarea name="" class="formulario__texto-area" id="" cols="30" rows="10" placeholder="Mensagem" data-tipo="mensagem" maxlength="300" data-tipo="mensagem" required></textarea>
+                <span class="input-erro"></span>
+              </fieldset>
+              <input class="formulario__enviar" disabled="true" type="submit" data-tipo="botao" value="Enviar Mensagem"/>
+            </form>
           </container>
+        </container>
+      </section>
+    </main>
+    <footer class="footer">
+      <container class="footer-container">
+        <p>Desenvolvido por Roni</p>
+        <span>2021</span>
       </container>
-    </section>
-  </main>
-  <footer class="footer">
-    <container class="footer-container">
-      <p>Desenvolvido por Roni</p>
-      <span>2021</span>
-    </container>
-  </footer>
-</body>
+    </footer>
+    <script type="module" src="/js/app.js"></script>
+  </body>
 </html>
